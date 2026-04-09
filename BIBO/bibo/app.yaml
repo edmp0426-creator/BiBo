@@ -1,0 +1,9 @@
+name: BIBO
+description: This example showcases object detection within a live feed from a USB camera.
+ports: []
+bricks:
+- arduino:video_object_detection:
+    model: ei-model-955513-1
+- arduino:web_ui: {}
+- arduino:image_classification: {}
+icon: 📽️
